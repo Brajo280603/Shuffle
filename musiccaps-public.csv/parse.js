@@ -13,7 +13,8 @@ fs.createReadStream('musiccaps-public.csv')
       links.push("https://youtu.be/"+res.ytid);
     })
     links = JSON.stringify(links)
-    fs.writeFileSync('links.json',links);
+    console.log(links);
+    fs.writeFileSync('links.js',links);
 
     // console.log(results);
     // [
