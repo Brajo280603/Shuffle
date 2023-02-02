@@ -1,0 +1,97 @@
+
+    {"short_name": "Shuffle",
+    "name": "Shuffle : get random songs from YouTube",
+    "icons": [
+      {
+        "src": "webpage/img/maskable_icon_x512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any"
+      },
+      {
+        "src": "webpage/img/maskable_icon_x384.png",
+        "type": "image/png",
+        "sizes": "384x384",
+        "purpose": "any"
+      },
+      {
+        "src": "webpage/img/maskable_icon_x192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any"
+      },
+      {
+        "src": "webpage/img/maskable_icon_x128.png",
+        "type": "image/png",
+        "sizes": "128x128",
+        "purpose": "any"
+      },
+      {
+        "src": "webpage/img/maskable_icon_x96.png",
+        "type": "image/png",
+        "sizes": "96x96",
+        "purpose": "any"
+      },
+      {
+        "src": "webpage/img/maskable_icon_x72.png",
+        "type": "image/png",
+        "sizes": "72x72",
+        "purpose": "any"
+      },
+      {
+        "src": "webpage/img/maskable_icon_x48.png",
+        "type": "image/png",
+        "sizes": "48x48",
+        "purpose": "any"
+      },
+      {
+        "src": "webpage/img/maskable_icon_x512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+      },
+      {
+        "src": "webpage/img/maskable_icon_x384.png",
+        "type": "image/png",
+        "sizes": "384x384",
+        "purpose": "maskable"
+      },
+      {
+        "src": "webpage/img/maskable_icon_x192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "maskable"
+      },
+      {
+        "src": "webpage/img/maskable_icon_x128.png",
+        "type": "image/png",
+        "sizes": "128x128",
+        "purpose": "maskable"
+      },
+      {
+        "src": "webpage/img/maskable_icon_x96.png",
+        "type": "image/png",
+        "sizes": "96x96",
+        "purpose": "maskable"
+      },
+      {
+        "src": "webpage/img/maskable_icon_x72.png",
+        "type": "image/png",
+        "sizes": "72x72",
+        "purpose": "maskable"
+      },
+      {
+        "src": "webpage/img/maskable_icon_x48.png",
+        "type": "image/png",
+        "sizes": "48x48",
+        "purpose": "maskable"
+      }
+    ],
+    
+    "id": "index.html",
+    "start_url": "./index.html",
+    "background_color": "#343a40",
+    "display": "standalone",
+    "theme_color": "#212529",
+    "description": "Shuffle : get random songs from YouTube"
+  }

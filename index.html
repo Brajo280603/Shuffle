@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
-    <script src="./bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="./webpage/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+    <script src="./webpage/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.js"></script>
+    <link rel="manifest" href="./manifest.json">
+    <link rel="apple-touch-icon" href="./webpage/img/maskable_icon_x192.png">
+    <meta name="theme-color" content="#212529"/>
     <link rel="stylesheet" href="./webpage/style.css">
     <title>get random songs from musicLM tests songs</title>
 </head>
@@ -23,5 +26,9 @@
 </body>
     <script src="./webpage/links.js"></script>
     <script src="./webpage/script.js"></script>
-
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./service-worker.js');
+      }
+    </script>
 </html>
