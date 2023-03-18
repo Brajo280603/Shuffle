@@ -11,6 +11,10 @@
     <meta name="theme-color" content="#212529"/>
     <link rel="stylesheet" href="./webpage/style.css">
     <title>get random songs from musicLM tests songs</title>
+    <script
+    type="module"
+    src="https://unpkg.com/youtube-video-js@3.6.1/dist/youtube-video.js"
+></script>
 </head>
 <body>
     
@@ -21,6 +25,33 @@
         <span class="slider round"></span>
       </label>
     </div>
+
+    <div class="switchdiv" style="position: fixed;top: 20%;right: 1%;display: flex; justify-content: center;align-items: center; margin: 1rem;">
+      <p>personal playlist</p>
+      <label class="switch">
+        <input id="personal" type="checkbox" >
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <!-- <iframe 
+    id="player"
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/cPCLFtxpadE"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe> -->
+
+      <div id="noplayer">
+
+      </div>
+
+  
+
+
     <div style="margin:1rem;padding: 1rem; " >
         <div class="card bg-dark" style="width: 18rem;height:100%;">
           <!-- <img class="card-img-top gameImage" src="${el.keyImages[2].url}" alt="currentGame"> -->
@@ -32,11 +63,20 @@
         </div>
       </div>
 </body>
+
+
+
     <script src="./webpage/links.js"></script>
+    <script src="./webpage/newLinks.js"></script>
     <script src="./webpage/script.js"></script>
     <script>
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('./service-worker.js');
       }
     </script>
+
+
+
+
+
 </html>
